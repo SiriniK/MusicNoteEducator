@@ -1,0 +1,21 @@
+{
+    "version":"1.0",
+    "manifest_version":2,
+    "name": "Music Note Educator", 
+    "description": "Music Note Educator",
+    "browser_action": {
+        "default_icon": "musicicon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+	"tabs",
+        "https://app.foliogrow.com/*"
+     ],
+     "icons": {
+        "16": "musicicon.png",
+        "32": "musicicon.png",
+        "48": "musicicon.png",
+        "128": "musicicon.png"
+    }
+}
