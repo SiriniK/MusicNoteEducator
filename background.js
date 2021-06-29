@@ -31,19 +31,10 @@ chrome.tabs.getSelected(null, function(tab) {
         	//label.innerHTML = httpRequest.responseText;
 		if (tabUrl == "www.musicnotes.com")
 			{  
-			label.innerHTML = ""; // In Top 100 with a rank of 74";
+			label.innerHTML = ""; // music";
 			img.src = "musicscale.png"	
 			}
-		else if (tabUrl == "www.michelin.com")
-			{  
-			label.innerHTML = ""; // In Top 100 with a rank of 74";
-			img.src = "2.png"	
-			}
-		else
-			{
-			label.innerHTML = ""; // Not in Top 100";
-			img.src = "nodata.png";
-			}
+		
 		};
 	httpRequest.send();
 
